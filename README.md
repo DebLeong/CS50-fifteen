@@ -23,3 +23,14 @@ Sliding any tile that borders the board’s empty space in that space constitute
 Although other configurations are possible, we shall assume that this game begins with the board’s tiles in reverse order, from largest to smallest, left to right, top to bottom, with an empty space in the board’s bottom-right corner. **If, however, and only if the board contains an odd number of tiles (i.e., the height and width of the board are even), the positions of tiles numbered 1 and 2 must be swapped, as in the below.** The puzzle is solvable from this configuration.
 
 ![FifteenSolved](FifteenSolved.png)
+
+## Specification
+Implement the Game of Fifteen, per the comments in fifteen.c.
+
+Implement ```init```.
+
+Implement ```draw```.
+
+Implement ```move```.
+
+Implement ```won```.
